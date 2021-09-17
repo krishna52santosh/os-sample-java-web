@@ -1,5 +1,5 @@
 pipeline {
-  agent master
+	agent { label 'Built-In Node' }
   stages {
     stage('Checkout') {
       steps {
